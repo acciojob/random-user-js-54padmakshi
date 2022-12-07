@@ -33,8 +33,6 @@ fetch('https://randomuser.me/api/')
     info[0].innerHTML = userData.results[0].phone
  }
  
- /*function myFunction4(){
-   // name1.innerHTML = result.results[1].name.first 
- }
 
- //console.log(age);*/
+
+
