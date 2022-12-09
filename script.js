@@ -20,7 +20,7 @@ const getData = async ()=>{
       const result = await fetch(url);
       const data = await result.json();
       user = data.results[0];
-      console.log(user);
+      //console.log(user);
    } catch (error) {
       alert (error);
       console.log(error);
