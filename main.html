@@ -9,34 +9,30 @@
 </head>
 <body>
 	
-	
-	<div class = "info"> </div>
-	
-  <div class="name"> </div>
-  <div class="lastn"> </div>
-  <div class="pic"> </div>
+	<div class="container">
+    <p id="name"></p> 
+    <img src="" alt=" Profile Picture" class="pic">
+  </div>
+  
+  <section>
 
- 	<button id = "addinfo"><h4> Additional info </h4></button>
+   	<h4 class="addinfo"> Additional Information </h4>
+     <div class="btngrp"> 
+       <button data-attr="age" > Age </button>
+       <button data-attr="email" > Email </button>
+       <button data-attr="phone"  > Phone </button>
+       <p class = "additionalinfo"> </p>
+      </div>
+  </section>
 
-   <!-- 
-    we need to hide these buttons as clicking on additiponal info thesee shud come 
-       <button class="age"  onclick= "myFunction1(age)" > Age </button>
-   <button class="email" onclick="myFunction2(email)" > email </button>
-   <button class="phone" onclick="myFunction3(phone)" > phone </button>
-   -->
- 
+<section>
+    <button id="getUser">Get New User</button>
 
-
-
-<div>
-	<button id = " getUser" onclick="myFunction4()"> User Information</button>
-</div>
-
- 
+</section>
 
 
-    <script type="text/javascript" src="./script.js">
-</script>
+  <script type="text/javascript" src="./script.js">
+  </script>
 </body>
 </html>
 
