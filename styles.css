@@ -9,9 +9,9 @@
 body{
     background-color: aquamarine;
 }
-.btngrp{
-    /* display: none; */
-}
+/*.btngrp{
+    /* display: none; 
+}*/
 .addinfo{
     cursor: pointer;
 }

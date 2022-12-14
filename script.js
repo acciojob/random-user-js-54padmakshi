@@ -3,8 +3,8 @@
  
 let name1 = document.querySelector("#name"); // we need to display the name by default
 let image = document.querySelector(".pic"); // we need to display pic by default
-let headingadd =document.querySelector(".addinfo");
-let btngrp =document.querySelector(".btngrp");
+// let headingadd =document.querySelector(".addinfo");
+// let btngrp =document.querySelector(".btngrp");
 let agebtn =document.querySelector('[data-attr="age"]');
 let emailbtn =document.querySelector('[data-attr="email"]');
 let phonebtn =document.querySelector('[data-attr="phone"]'); 
@@ -32,7 +32,7 @@ const displayData = async()=>{
    await getData();
    name1.textContent = `Name : ${user.name.title}  ${user.name.first} ${user.name.last}`;
    image.src=user.picture.large;
-   btngrp.style.display = "none";
+   // btngrp.style.display = "none";
    additionalInfo.textContent = "";
 } 
 /* const toggleAdditionalInfo =()=>{
