@@ -10,7 +10,7 @@ body{
     background-color: aquamarine;
 }
 .btngrp{
-    display: none;
+    /* display: none; */
 }
 .addinfo{
     cursor: pointer;
