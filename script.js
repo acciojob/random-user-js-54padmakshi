@@ -35,13 +35,13 @@ const displayData = async()=>{
    btngrp.style.display = "none";
    additionalInfo.textContent = "";
 } 
-const toggleAdditionalInfo =()=>{
+ const toggleAdditionalInfo =()=>{
    if(btngrp.style.display === "none"){
       btngrp.style.display = "block";
    }else{
       btngrp.style.display = "none";
    }
-}
+ }
 const showAdditionalInfo = (e)=>{
    const att = e.target.getAttribute("data-attr");
    if (att == "age") {
